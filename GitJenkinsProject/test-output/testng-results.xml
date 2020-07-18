@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12206" started-at="2020-07-19T00:11:17 IST" finished-at="2020-07-19T00:11:29 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12206" started-at="2020-07-19T00:11:17 IST" finished-at="2020-07-19T00:11:29 IST">
+      <class name="testOne.LoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testOne.LoginPage@4bbfb90a]" name="setUp" is-config="true" duration-ms="5474" started-at="2020-07-19T00:11:17 IST" finished-at="2020-07-19T00:11:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testOne.LoginPage@4bbfb90a]" name="login" duration-ms="12" started-at="2020-07-19T00:11:22 IST" finished-at="2020-07-19T00:11:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testOne.LoginPage@4bbfb90a]" name="tearDown" is-config="true" duration-ms="974" started-at="2020-07-19T00:11:22 IST" finished-at="2020-07-19T00:11:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testOne.LoginPage@4bbfb90a]" name="setUp" is-config="true" duration-ms="4629" started-at="2020-07-19T00:11:23 IST" finished-at="2020-07-19T00:11:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterText()[pri:0, instance:testOne.LoginPage@4bbfb90a]" name="enterText" duration-ms="108" started-at="2020-07-19T00:11:28 IST" depends-on-methods="testOne.LoginPage.login" finished-at="2020-07-19T00:11:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testOne.LoginPage@4bbfb90a]" name="tearDown" is-config="true" duration-ms="959" started-at="2020-07-19T00:11:28 IST" finished-at="2020-07-19T00:11:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testOne.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
