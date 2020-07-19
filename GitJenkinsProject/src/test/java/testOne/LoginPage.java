@@ -16,7 +16,7 @@ public class LoginPage extends BasePage {
 	public void enterText() {
 		System.out.println("The second method enter text started");
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Hello World");
-		System.out.println(" The Enter Text Method closed ");
+		System.out.println(" The Enter Text Method closedaaaaa ");
 	}
 	
 }
